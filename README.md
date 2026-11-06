@@ -12,24 +12,8 @@ Flet es un framework para construir aplicaciones interactivas de escritorio, web
 
 Requisitos: **Python 3.10 o superior** (macOS 12+, Windows 10/11 de 64 bits, o Debian/Ubuntu recientes).
 
-```bash
-git clone <https://github.com/JulianDavidJ/Interfaces-gr-ficas-y-programaci-n-orientada-a-eventos>
-cd flet-contador
-
-python -m venv .venv
-# Linux / macOS
-source .venv/bin/activate
-# Windows
-.venv\Scripts\activate
-
-pip install -r requirements.txt
-
-flet run main.py          # ventana de escritorio
-# flet run --web main.py  # alternativa: en el navegador
-```
-
-También funciona con `python main.py`.
-
+  git clone https://github.com/JulianDavidJ/Interfaces-gr-ficas-y-programaci-n-orientada-a-eventos.git
+  cd Interfaces-gr-ficas-y-programaci-n-orientada-a-eventos
 ## Cómo usar la aplicación
 
 | Acción del usuario | Resultado |
